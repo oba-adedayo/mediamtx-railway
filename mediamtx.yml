@@ -1,7 +1,4 @@
 # Basic MediaMTX configuration for Railway
-rtmp: yes
-hls: yes
-
 paths:
   all:
     source: publisher
@@ -18,4 +15,4 @@ hls:
   enable: yes
   listenAddress: :8889
   segmentCount: 3
-  segmentDuration: 4s
+  segmentDuration: 4
