@@ -5,3 +5,17 @@ hls: yes
 paths:
   all:
     source: publisher
+server:
+  httpAddress: :8889
+  readTimeout: 10s
+  writeTimeout: 10s
+
+rtmp:
+  enable: yes
+  listenAddress: :1935
+
+hls:
+  enable: yes
+  listenAddress: :8889
+  segmentCount: 3
+  segmentDuration: 4s
