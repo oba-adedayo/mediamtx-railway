@@ -1,0 +1,7 @@
+# Basic MediaMTX configuration for Railway
+rtmp: yes
+hls: yes
+
+paths:
+  all:
+    source: publisher
