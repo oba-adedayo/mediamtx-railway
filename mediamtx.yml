@@ -1,16 +1,15 @@
+api: yes
+apiAddress: :9997
+
+rtmp: yes
+rtmpAddress: :1935
+
+hls: yes
+hlsAddress: :8889
+hlsVariant: lowLatency
+hlsSegmentCount: 3
+hlsSegmentDuration: 4s
+
 paths:
   all:
     source: publisher
-
-rtmp:
-  enable: yes
-  address: :1935
-
-hls:
-  enable: yes
-  address: :8889
-  segmentCount: 3
-  segmentDuration: 4
-
-
- 
