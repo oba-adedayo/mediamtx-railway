@@ -1,3 +1,5 @@
+logLevel: info
+
 api: yes
 apiAddress: :9997
 
