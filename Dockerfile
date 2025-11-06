@@ -4,5 +4,6 @@ COPY mediamtx.yml /mediamtx.yml
 
 EXPOSE 1935
 EXPOSE 8889
+EXPOSE 9997
 
 ENTRYPOINT ["/mediamtx"]
