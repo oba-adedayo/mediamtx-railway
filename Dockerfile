@@ -1,5 +1,5 @@
 # Use MediaMTX v1.4.0 because it supported 
-FROM bluenviron/mediamtx:1.4.0
+FROM bluenviron/mediamtx:v1.4.0
 
 # Copy our config file into the container
 COPY mediamtx.yml /mediamtx.yml
