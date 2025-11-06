@@ -1,4 +1,4 @@
-# Use MediaMTX v1.4.0 because it supported 
+# Use MediaMTX v1.4.0 
 FROM bluenviron/mediamtx:v1.4.0
 
 # Copy our config file into the container
