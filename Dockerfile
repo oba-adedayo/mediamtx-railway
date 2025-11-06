@@ -1,12 +1,11 @@
-# Use MediaMTX v1.4.0 
-FROM bluenviron/mediamtx:v1.4.0
+# PIN the exact MediaMTX version (not latest)
+FROM bluenviron/mediamtx:1.4.0@sha256:8b3c9a1b65bb1cb997a7e7e8e9858f228d9d62e2bc0800e4e5a58db8e82c3f06
 
-# Copy our config file into the container
+# Copy config
 COPY mediamtx.yml /mediamtx.yml
 
-# Expose RTMP and HLS ports
+# Expose ports
 EXPOSE 1935
 EXPOSE 8889
 
-# Run MediaMTX
 ENTRYPOINT ["/mediamtx"]
