@@ -3,13 +3,15 @@ paths:
   all:
     source: publisher
 
-rtmp: yes
-hls: yes
+rtmp:
+  enable: yes
+  address: :1935
 
-server:
-  httpAddress: :8889
-  readTimeout: 10s
-  writeTimeout: 10s
+hls:
+  enable: yes
+  address: :8889
+  segmentCount: 3
+  segmentDuration: 4
 
 
  
